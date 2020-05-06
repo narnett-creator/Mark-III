@@ -1,0 +1,89 @@
+body {
+    background-color: #819c85;
+    font-family: 'Candara';
+  }
+  nav {
+    background-color: #2a2b2e;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100vw;
+    z-index: 1;
+  }
+  nav ul li {
+    float: right; 
+    margin-right: 50px;
+    list-style-type: none;
+    text-align: center;
+  }
+  #brand {
+    float: left;
+  }
+  .nav-link {
+    color: #c1b098;
+    text-decoration: none;
+    font-family: 'Candara';
+  }
+  .nav-link:hover {
+    color: #9a6423;
+    font-weight: bold;
+  }
+  #brand .nav-link {
+    color: #9a6423;
+    font-size: 14pt; 
+  }
+  #brand .nav-link:hover {
+    color: #819c85;
+  }
+  h1 {
+    font-size: 60pt;
+    font-family: 'courier';
+  }
+  #home {
+    margin-top: 50px;
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    height: 50vh;
+    padding-top: 3em;
+    background: url('https://images.unsplash.com/photo-1476820865390-c52aeebb9891?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') center 75% no-repeat fixed; 
+    background-size: cover;
+  }
+  .header-tag {
+    text-align: center;
+    color: #c1b098;
+    text-shadow: 2px 2px 2px black;
+    }
+  h3.header-tag {
+    margin-top: -30px;
+    font-size: 18pt;
+  }
+  h2 {
+      font-family: 'Acme', sans-serif;
+      color: #444554;
+  }
+  .main {
+      text-align: center;
+  }
+  #about {
+      margin-top: 50px;
+      display: inline-block;
+      font-style: italic;
+      font-family: 'Courier';
+  }
+  #about-picture {
+      width: 30vw;
+      float: left;
+  }
+  #profile-pic {
+      height: 300px;
+      width: 300px;
+      object-fit: cover;
+      border-radius: 0.4em;
+      box-shadow: 2px 2px 2px black;
+  }
+  #about-content {
+      width: 40vw;
+      float: right;
+  }
